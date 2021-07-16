@@ -59,6 +59,8 @@ class UI {
           <h3>${product.title}</h3>
           <h4>$${product.price}</h4>
           <p>${product.description}</p>
+          <label for="quantity" class="form-label">Quantity</label>
+          <input type="text" class="form-control" id="quantity"  required>
         </article>
         <!-- end of single product -->
    `;
